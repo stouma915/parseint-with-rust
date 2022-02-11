@@ -1,7 +1,7 @@
 use unicode_segmentation::UnicodeSegmentation;
 
 fn main() {
-    println!("{}", parse_int("256".to_string()).unwrap());
+    println!("{:?}", parse_int("256".to_string()));
 }
 
 fn parse_int(string: String) -> Option<i32> {
